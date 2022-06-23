@@ -8,11 +8,11 @@ Twilio Flex Plugins allow you to customize the appearance and behavior of [Twili
 
 This plugin provides a straight forward way to change the default outbound dialing behavior in Flex to target SIP Endpoint(s).  Without this plugin all calls will traverse the Twilio Super Network.  There are times where you may want to direct outbound calls to a SIP endpoint (you can find more information on how these works in Twilio here: https://www.twilio.com/docs/voice/api/sip-interface).  The plugin in it's current state only changes the behavior for defined list of numbers.  If you wish to have all calls leverage SIP endpoints, I will describe that within this README below.
 
-Flex Outbound Dial 
-![Plugin Demo](https://github.com/aestellwag/plugin-supervisor-barge-coach/blob/main/Supervisor-Barge-Coach-Plugin-1.gif)
+Flex Outbound Dial
+![Plugin Demo](https://github.com/aestellwag/plugin-outbound-dial-sip/blob/main/outbound-dial-sip-1.gif)
 
-SIP Overwrite Target 
-![Plugin Demo](https://github.com/aestellwag/plugin-supervisor-barge-coach/blob/main/Supervisor-Barge-Coach-Plugin-1.gif)
+SIP Overwrite Target
+![Plugin Demo](https://github.com/aestellwag/plugin-outbound-dial-sip/blob/main/outbound-dial-sip-2.gif)
 
 ## Pre-req
 
