@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlexPlugin } from 'flex-plugin';
+import { FlexPlugin } from '@twilio/flex-plugin';
 
 // import the custom listeners
 import './listeners/CustomListeners';
