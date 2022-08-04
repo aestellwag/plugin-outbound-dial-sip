@@ -25,7 +25,7 @@ Actions.addListener('beforeStartOutboundCall', (payload) => {
 
             // Match found, we will overwrite the payload destintation to leverage a SIP Enpoint/Interface target
             // REPLACE the @xxxx with your SIP Endpoint
-            payload.destination = `sip:${payload.destination}@pstest.sip.twilio.com`;
+            payload.destination = `sip:${payload.destination}@xxxx`;
         } else {
             console.log('Non-SIP call taken!');
         }
