@@ -19,7 +19,11 @@ export default class OutboundDialingSipPlugin extends FlexPlugin {
    * @param manager { import('@twilio/flex-ui').Manager }
    */
   async init(flex, manager) {
+  
+    manager.strings.TaskLineOutboundCallHeader = 
+    '{{#if task.attributes.to}} {{task.attributes.to}}{{else}} {{task.attributes.outbound_to}}{{/if}}';
+    manager.strings.CallParticipantCustomerName = 
+    '{{#if task.attributes.to}} {{task.attributes.to}}{{else}} {{task.attributes.outbound_to}}{{/if}}';
 
-
-  }
+  }  
 }
